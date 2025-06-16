@@ -147,12 +147,12 @@ function App() {
           />
 
           <ProjectCard
-            imageSrc="./tensorflow.jpg"
-            title="TensorFlow Models"
-            description="Models I have built throughout my learning journey. Include image classification and NLP."
-            technologies={["Python", "TensorFlow", "Pandas", "scikit-learn"]}
+            imageSrc="./caption-gen.jpg"
+            title="Image Caption Generator"
+            description="AI-powered image caption generator with Flask and Huggingface's transformers library."
+            technologies={["Python", "Flask", "TensorFlow", "JavaScript"]}
             // websiteLink="https://google.com"
-            sourceLink="https://github.com/AbdelrahmanW08/termhint"
+            sourceLink="https://github.com/AbdelrahmanW08/caption-gen"
           />
 
           <ProjectCard
