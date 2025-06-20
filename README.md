@@ -1,3 +1,9 @@
-# Personal website 2.0
+# Personal Website
 
-needed a better one
+This is my personal website, showcasing my projects, skills, and experience.
+
+## Tech Stack
+- React
+- TypeScript
+- CSS
+- Vite
