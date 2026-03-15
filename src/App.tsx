@@ -18,7 +18,7 @@ function App() {
             <div className="greeting">
               <h1>hey, this is Abdelrahman. 👋</h1>
               <p className="subtitle"><MapPin size={20} /> Ontario, Canada</p>
-              <p className="subtitle">19yo full-stack developer and ml engineer.</p>
+              <p className="subtitle">{new Date().getFullYear() - 2005}yo full-stack developer and ml engineer.</p>
               <p className="subtitle">Looking to use my skills to make lives easier with technology.</p>
               <p className="subtitle second-subtitle courier">i like learning new things.</p>
               <div className="buttons-container">
