@@ -70,11 +70,31 @@ function App() {
               <div className='timeline'>
 
                 <div className='timeline-entry'>
+                  <img src="./placeholder.png" className='timeline-image' />
+                  <div className='timeline-entry-content'>
+                    <p className='timeline-info'>May 2026 - Aug 2026</p>
+                    <h2 className='timeline-title'>Software Engineer Intern</h2>
+                    <p className='timeline-info'>Lifestyle Home Products</p>
+                  </div>
+                  <ul className='timeline-list'>
+                    <li className='timeline-list-item'>
+                      Designed and deployed a suite of 8 operational tools using Google Apps Script, Looker Studio, and Gmail/Slack APIs to automate reporting, scheduling, accountability, and notification workflows across the team.
+                    </li>
+                    <li className='timeline-list-item'>
+                      Built automated reporting pipelines and Looker Studio dashboards that compiled attendance, pipeline, and store performance data across 64 Canadian locations, delivering formatted stakeholder reports on a recurring schedule.
+                    </li>
+                    <li className='timeline-list-item'>
+                      Engineered a rep accountability system and geo-based scheduling tool that flagged behavioral patterns, triggered manager alerts, and calculated rep-to-store proximity with dynamic headcount syncing via Google Maps API.
+                    </li>
+                  </ul>
+                </div>
+
+                <div className='timeline-entry'>
                   <img src="./masjidalfarooq.jpg" className='timeline-image' />
                   <div className='timeline-entry-content'>
                     <p className='timeline-info'>Mar 2022 - May 2022</p>
-                    <h2 className='timeline-title'>Masjid Al-Farooq</h2>
-                    <p className='timeline-info'>General Assistant</p>
+                    <h2 className='timeline-title'>General Assistant</h2>
+                    <p className='timeline-info'>Masjid Al-Farooq</p>
                   </div>
                   <ul className='timeline-list'>
                     <li className='timeline-list-item'>
@@ -90,8 +110,8 @@ function App() {
                   <img src="./isnacanada.jpg" className='timeline-image' />
                   <div className='timeline-entry-content'>
                     <p className='timeline-info'>Sep 2019 - Apr 2020</p>
-                    <h2 className='timeline-title'>ISNA Canada</h2>
-                    <p className='timeline-info'>Event Coordinator</p>
+                    <h2 className='timeline-title'>Event Coordinator</h2>
+                    <p className='timeline-info'>ISNA Canada</p>
                   </div>
                   <ul className='timeline-list'>
                     <li className='timeline-list-item'>
