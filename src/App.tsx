@@ -70,7 +70,7 @@ function App() {
               <div className='timeline'>
 
                 <div className='timeline-entry'>
-                  <img src="./placeholder.png" className='timeline-image' />
+                  <img src="./lifestyle.png" className='timeline-image' />
                   <div className='timeline-entry-content'>
                     <p className='timeline-info'>May 2026 - Aug 2026</p>
                     <h2 className='timeline-title'>Software Engineer Intern</h2>
