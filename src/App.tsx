@@ -78,13 +78,13 @@ function App() {
                   </div>
                   <ul className='timeline-list'>
                     <li className='timeline-list-item'>
-                      Designed and deployed a suite of 8 operational tools using Google Apps Script, Looker Studio, and Gmail/Slack APIs to automate reporting, scheduling, accountability, and notification workflows across the team.
+                      Built automated ETL pipelines in Google Apps Script integrating Salesforce, Centah, ADP, and SureCommand into unified reporting tables, with fuzzy name matching and self-healing syncs.
                     </li>
                     <li className='timeline-list-item'>
-                      Built automated reporting pipelines and Looker Studio dashboards that compiled attendance, pipeline, and store performance data across 64 Canadian locations, delivering formatted stakeholder reports on a recurring schedule.
+                      Developed a role-scoped web dashboard and scheduling tools featuring secure login, availability and call-out workflows with email notifications, and an automated shift generator based on rep proximity and efficiency.
                     </li>
                     <li className='timeline-list-item'>
-                      Engineered a rep accountability system and geo-based scheduling tool that flagged behavioral patterns, triggered manager alerts, and calculated rep-to-store proximity with dynamic headcount syncing via Google Maps API.
+                      Productionized the system for non-technical handoff by writing SOPs, automating nightly and hourly refreshes, and fixing data-integrity bugs to keep reporting accurate.
                     </li>
                   </ul>
                 </div>
